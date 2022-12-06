@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>harrisons investment</title>
+    <link rel="stylesheet" href="/css files/index.css">
+</head>
+<body>
+    <section class="section1">
+    <nav class="navbar">
+        <h4>fantasyhub<i class="fa fa-diamond"></i></h4>
+        <div class="menu">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="/html-files/category.html">Category</a></li>
+                <li><a href="">Promo</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </div>
+        <div class="contact">
+        <button>contact me</button>
+        </div>
+        <div class="login" onclick="showDiv()">
+        <button>login</button>
+        </div>
+        <div class="mine" id="showid">
+        <div class="log1">
+           <form class="form">
+                <center>signin</center>
+                <input type="text" name="User" id="User" placeholder="Username">
+                <input type="password" name="psw" id="psw" placeholder="password">
+                <div class="fpsw">
+                    <b>forget password?</b>
+                    <a href="#" target="_blank">signup</a>
+                </div>
+                <input type="submit" name="submit" value="signin">
+            </form>
+        </div>
+        </div>
+        <div class="signup" onclick="showDIV()">
+        <button>signup</button>
+        </div>
+    </nav>
+    <div class="bottom">
+        <div class="cont1"><h1>Wear the <br><span>best.</span></h1>
+            <p>Still, the second option holds promise.could make the tagline shortlist if you`re delivering relaxed,</p>
+        </div>
+        <div class="cont2">
+            <div class="shopicon1">
+            <button>Shop now</button>
+            <i class="fa fa-chevron-down"></i>
+            </div>
+            <div class="shopicon2">
+            <button>See promo </button>
+            <i class="fa fa-chevron-down"></i>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="section2">
+        <div class="container">
+            <div class="lady">
+                <a href="">STREET STYLE</a>
+            </div>
+            <div class="forca">
+                <div class="formal">
+                <a href="">FORMAL BOY</a>               
+                </div>
+                <div class="casual">
+                <a href="">CASUAL BOY</a>               
+                </div>
+            </div>
+        </div>
+        <div class="circle">
+            <h3>Be your best</h3>
+    </div>
+        <div class="container2">
+            <div class="delivery">
+                <i class="fa fa-truck"></i>
+                <h3>Super Fast and Free Delivery</h3>
+            </div>
+            <div class="space">
+                <div class="space1">
+                    <i class="fa fa-plane"></i> 
+                    <b>Non-contact Shipping</b>
+                </div>
+                <div class="space2">
+                    <i class="fa fa-money"></i>
+                    <b>Money-back Gauranteed</b>
+                </div>
+            </div>
+            <div class="jump">
+                <i class="fa fa-credit-card"></i>
+                <h3>Super Secure Payment System</h3>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footernote">
+            <div class="flexbox">
+               <ul>
+                <li class="bold">Quick Link</li>
+                <li>Category</li>
+                <li>Promo</li>
+                <li>Men Fashion</li>
+                <li>Women Fashion</li>
+               </ul>
+               <ul>
+                <li class="bold">Services</li>
+                <li>Men Product</li>
+                <li>Women Product</li>
+                <li>Accesories</li>
+                <li>Promo</li>
+               </ul>
+               <ul>
+                <li class="bold">Social Media</li>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Twitter</li>
+                <li>Github</li>
+               </ul>
+               <ul>
+                <li class="bold">About</li>
+                <li>Company</li>
+                <li>Careers</li>
+                <li>Legal</li>
+                <li>Help</li>
+               </ul>
+            </div>
+            <div class="fantasy">
+                <h4>fantasyhub<i class="fa fa-diamond"></i></h4>
+            </div>
+           <div class="copy">
+            <p>&copy copyright 2022 . Great studio</p>
+           </div> 
+        </div>
+        
+    </footer>
+    <script>
+        function showDiv(){
+            var show = document.getElementById("showid");
+                if(show.style.display == "block"){
+                    show.style.display = "none";
+                }
+                else{
+                    show.style.display = "block";   
+              }
+        }
+    </script>
+</body>
+</html>

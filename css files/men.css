@@ -1,0 +1,560 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    width: 70%;
+    height: 10vh;
+    justify-content: space-evenly;
+    margin-left: 15%;
+    margin-left: 15%;
+    padding-top: 1%;
+    background-color: rgba(39, 39, 39, 0.8);
+}
+.navbar a{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    padding: 10px 16px;
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0 #25252a;
+    transition: ease-out 1s;
+    outline: none;
+    background-color: rgb(225, 0, 68);
+    color: #fff;
+    border: none;
+}
+.navbar a:hover{
+    box-shadow: inset 150px 0 0 0 #25252a;
+    cursor: pointer;
+}
+.sec1{
+    background-image: url(/men\ photos/3rd-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:525vh ;
+    width: 100%;
+
+
+}
+.sales2{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 155vh;
+    padding-top: 1%;
+    background-color: whitesmoke;
+
+}
+.sales2 .first .item1{
+    height: 74vh;
+    width: 300px;
+
+}
+.sales2 .first .item1 .pic1{
+    background-image: url(/men\ photos/G-shock2022.jpg);
+    height: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sales2 .first .item1 .cont1{
+    padding-top: 50px;
+    line-height: 30px;
+    border-bottom: 2px solid black;
+}
+.sales2 .first .item2{
+    height: 74vh;
+    width: 300px;
+    margin-top: 10%;
+} 
+.sales2 .first .item2 .pic2{
+    background-image: url(/men\ photos/7.jpg);
+    height: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sales2 .first .item2 .cont2{
+    padding-top: 50px;
+    line-height: 30px;
+    border-bottom: 2px solid black;
+}
+
+.sales2 .second .item1{
+    height: 74vh;
+    width: 300px;
+    
+}
+.sales2 .second .item1 .pic1{
+    background-image: url(/men\ photos/8.jpg);
+    height: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sales2 .second .item1 .cont1{
+    padding-top: 50px;
+    line-height: 30px;
+    border-bottom: 2px solid black;
+}
+
+.sales2 .second .item2{
+    height: 74vh;
+    width: 300px;
+    margin-top: 10%;
+}
+.sales2 .second .item2 .pic2{
+    background-image: url(/men\ photos/Fossil-silver.jpg);
+    height: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sales2 .second .item2 .cont2{
+    padding-top: 50px;
+    line-height: 30px;
+    border-bottom: 2px solid black;
+}
+
+.sales2 .third .item1{
+    height: 74vh;
+    width: 300px;
+}
+.sales2 .third .item1 .pic1{
+    background-image: url(/men\ photos/9.jpg);
+    height: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sales2 .third .item1 .cont1{
+    padding-top: 50px;
+    line-height: 30px;
+    border-bottom: 2px solid black;
+}
+
+.sales2 .third .item2{
+    height: 74vh;
+    width: 300px;
+    margin-top: 10%;
+}
+.sales2 .third .item2 .pic2{
+    background-image: url(/men\ photos/hunters-race.jpg);
+    height: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sales2 .third .item2 .cont2{
+    padding-top: 50px;
+    line-height: 30px;
+    border-bottom: 2px solid black;
+}
+.sales1{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 155vh;
+    padding-top: 1%;
+    background-color: whitesmoke;
+
+
+}
+.sales1 .first .item1{
+    height: 74vh;
+    width: 300px;
+
+}
+.sales1 .first .item1 .pic1{
+    background-image: url(/men\ photos/1.jpg);
+    height: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sales1 .first .item1 .cont1{
+    padding-top: 50px;
+    line-height: 30px;
+    border-bottom: 2px solid black;
+}
+.sales1 .first .item2{
+    height: 74vh;
+    width: 300px;
+    margin-top: 10%;
+} 
+.sales1 .first .item2 .pic2{
+    background-image: url(/men\ photos/2.jpg);
+    height: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sales1 .first .item2 .cont2{
+    padding-top: 50px;
+    line-height: 30px;
+    border-bottom: 2px solid black;
+}
+
+.sales1 .second .item1{
+    height: 74vh;
+    width: 300px;
+    
+}
+.sales1 .second .item1 .pic1{
+    background-image: url(/men\ photos/3.jpg);
+    height: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sales1 .second .item1 .cont1{
+    padding-top: 50px;
+    line-height: 30px;
+    border-bottom: 2px solid black;
+}
+
+.sales1 .second .item2{
+    height: 74vh;
+    width: 300px;
+    margin-top: 10%;
+}
+.sales1 .second .item2 .pic2{
+    background-image: url(/men\ photos/4.jpg);
+    height: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sales1 .second .item2 .cont2{
+    padding-top: 50px;
+    line-height: 30px;
+    border-bottom: 2px solid black;
+}
+
+.sales1 .third .item1{
+    height: 74vh;
+    width: 300px;
+}
+.sales1 .third .item1 .pic1{
+    background-image: url(/men\ photos/5.jpg);
+    height: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sales1 .third .item1 .cont1{
+    padding-top: 50px;
+    line-height: 30px;
+    border-bottom: 2px solid black;
+}
+
+.sales1 .third .item2{
+    height: 74vh;
+    width: 300px;
+    margin-top: 10%;
+}
+.sales1 .third .item2 .pic2{
+    background-image: url(/men\ photos/6.jpg);
+    height: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.sales1 .third .item2 .cont2{
+    padding-top: 50px;
+    line-height: 30px;
+    border-bottom: 2px solid black;
+}
+
+.sales3{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 155vh;
+    padding-top: 1%;
+    background-color: whitesmoke;
+
+}
+.sales3 .first .item1{
+    height: 74vh;
+    width: 300px;
+
+}
+.sales3 .first .item1 .pic1{
+    background-image: url(/men\ photos/AF1.jpg);
+    height: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sales3 .first .item1 .cont1{
+    padding-top: 50px;
+    line-height: 30px;
+    border-bottom: 2px solid black;
+}
+.sales3 .first .item2{
+    height: 74vh;
+    width: 300px;
+    margin-top: 10%;
+} 
+.sales3 .first .item2 .pic2{
+    background-image: url(/men\ photos/j4.jpg);
+    height: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sales3 .first .item2 .cont2{
+    padding-top: 50px;
+    line-height: 30px;
+    border-bottom: 2px solid black;
+}
+
+.sales3 .second .item1{
+    height: 74vh;
+    width: 300px;
+    
+}
+.sales3 .second .item1 .pic1{
+    background-image: url(/men\ photos/formal.jpg);
+    height: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sales3 .second .item1 .cont1{
+    padding-top: 50px;
+    line-height: 30px;
+    border-bottom: 2px solid black;
+}
+
+.sales3 .second .item2{
+    height: 74vh;
+    width: 300px;
+    margin-top: 10%;
+}
+.sales3 .second .item2 .pic2{
+    background-image: url(/men\ photos/Dan-Henry.jpg);
+    height: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sales3 .second .item2 .cont2{
+    padding-top: 50px;
+    line-height: 30px;
+    border-bottom: 2px solid black;
+}
+
+.sales3 .third .item1{
+    height: 74vh;
+    width: 300px;
+}
+.sales3 .third .item1 .pic1{
+    background-image: url(/men\ photos/lv.png);
+    height: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sales3 .third .item1 .cont1{
+    padding-top: 50px;
+    line-height: 30px;
+    border-bottom: 2px solid black;
+}
+
+.sales3 .third .item2{
+    height: 74vh;
+    width: 300px;
+    margin-top: 10%;
+}
+.sales3 .third .item2 .pic2{
+    background-image: url(/men\ photos/10.jpg);
+    height: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sales3 .third .item2 .cont2{
+    padding-top: 50px;
+    line-height: 30px;
+    border-bottom: 2px solid black;
+}
+.sec2{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100vh;
+    margin-top: 7%;
+}
+.sec2 .word{
+    display: flex;
+    justify-content: space-evenly
+    ;
+}
+.word .word1{
+    font-weight: bolder;
+    font-size: 40px;
+    width: 45%;
+}
+.word .word2{
+    padding-top: 50px;
+    color: grey;
+    width: 45%;
+}
+.word .word2 p{
+    float: right;
+}
+.sec2 .imag{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8%;
+}
+.imag .imag1{
+    background-image: url(/men\ photos/dark.jpg);
+    height: 100%;
+    background-size: cover;
+    width: 45%;
+}
+.imag .imag2{
+    background-image: url(/men\ photos/dark2.jpg);
+    height: 100%;
+    background-size: cover;
+    width: 45%;
+}
+
+.sec3{
+    height: 50vh;
+    width: 80%;
+    margin-left: 10%;
+    top: 100px;
+    position: relative;
+    background-color: black;
+}
+.footer{
+    height: 70vh;
+    margin-top: 0;
+    background-color: #111;
+}
+.footernote{
+    top:100px;
+    position: relative;
+
+}
+.flexbox{
+    margin-top: 50px;
+    color: #fff;
+    display: flex;
+    top: 10px;
+    width: 100%;
+    justify-content: space-evenly;
+    position: relative;
+}
+.flexbox ul .bold{
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.flexbox ul li{
+    margin: 10px 0px;
+    font-weight: lighter;
+    color: grey;
+}
+.flexbox ul{
+    list-style-type: none;
+}
+
+.footernote .copy{
+    color: lightgray;
+    font-size: 10px;
+    margin-left: 45%;
+    margin-top: 10px;
+}
+.footernote .fantasy{
+    color: orangered;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+
+
+.slideshow-container {
+  position: relative;
+  background-image: url(/men\ photos/Dan-Henry.jpg);
+  height: 60vh;;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+.mySlides q{
+    color: #fff;
+    font-size: 40px;
+}
+.mySlides p{
+    color: #fff;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+}
+
+.dot {
+  cursor: cell;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: grey;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: orange;
+}
+
+q{
+	font-style: italic;
+	margin-top: 19vh;
+	color: black;
+}
+
+.author {color: cornflowerblue;}
